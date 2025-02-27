@@ -15,7 +15,7 @@ const App = () => {
       {/* <GlobalStyles />
         <DesignTokensProvider> */}
         <Routes>
-          <Route path={routes.HOME} element={<Home />} />
+          {/* <Route path={routes.HOME} element={<Home />} /> */}
           <Route path={routes.OFFER_LETTER} element={<OfferLetterPage />} />
           <Route path={routes.BACKGROUND_CHECK} element={<BackgroundCheck />} />
           
